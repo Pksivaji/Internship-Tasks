@@ -1,0 +1,158 @@
+body{
+    background-color:#000;
+    font-family: monospace;
+    color:#fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.logo {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-top:-20px;
+    cursor: pointer;
+
+  }
+.navbar{
+    display: flex; 
+    justify-content: center;
+    gap: 10vw;
+    position: relative;
+    top:30px;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+ 
+
+.Automative{
+    color:white;
+    font-size: 7vw;
+    margin-top: 40px;
+    font-family: cursive;
+}
+.watchVid{
+    width:100px;
+    height:30px;
+    border-radius: 30px;
+    border: 1px solid rgb(18, 64, 27);
+    padding: 3px;
+    margin: 32px;
+}
+.watchVid:hover{
+    color:#000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.fa-x{
+    color:#ffffff;
+    font-size: 25px;
+    float: right;
+    margin: -70px 10vw 0 0;
+    cursor: pointer;
+    visibility: collapse;
+     
+}
+.carDiv{
+    height: 250px;
+    overflow: hidden;
+     margin-top: 12px;
+}
+.carDiv img{
+    margin-top: -102px;
+     
+}
+.iframe{
+    margin-top: -270px;
+    display: none;
+}
+.card{
+    border: 2px solid rgb(51, 48, 48);
+    border-radius: 12px;
+    background-color: #252628;
+    color:white;
+}
+.car2container{
+    gap:10vw;
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow:0 0 2px white; 
+}
+.car2-specific{
+   display: flex;
+    gap:10vw;
+}
+.car2 img{
+    width:200px;
+}
+.img-3Div{
+    width:60vw;
+    height:150px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.img-3{
+    width:60vw;
+    height: 200px;
+    margin-top: -30px;
+    border-radius: 20px;
+   
+}
+.allBrands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:12px;
+    color:#000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+        background-color: rgba(183, 154, 238,0.5);
+
+}
+.carCards{
+    width:350px;
+    height:330px;
+    border:2px solid gray;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgba(183, 154, 238,0.2);
+     
+   
+}
+.allImg{
+    width:350px;
+    height:170px;
+    margin: -18px 0 0 -12px;
+}
+.footer{
+    padding:30px;
+}
+
+/* -----------------------------------------------@media queries------------------------------------------------------------ */
+@media screen and (max-width:750px){
+    .car2container{
+        display: flex;
+        flex-direction: column;
+        gap:3vw;
+        justify-content: space-between;
+    }
+
+    .car2-specific{
+        flex-direction: column;
+        gap:4px;
+    }
+ 
+
+
+}
